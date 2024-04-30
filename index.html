@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Mario Bros</title>
+  </head>
+
+  <body>
+    <div class="mascara-formulario" onclick="hideform()"></div>
+    </div>
+
+    <div class="header">
+        <img src="./img/logo.jpg" >
+        <a>Home</a>
+        <a href="Nossos-servicos.html">Nossos Serviços</a>
+        <a onclick="showform()">Fale Conosco</a>
+    </div>
+
+
+    <div class="caixa-mae">
+      <div class="caixa-principal">
+        <img
+          class="logo_tattoo"
+          src="./img/logo.jpg"
+          alt="Logotipo de Super Mario bros."
+        />
+        <p class="introduçao">
+         Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Quibusdam, vitae laudantium! Eius quo assumenda deserunt voluptates sequi, 
+          fugit illum repellat sed amet perspiciatis, facere temporibus error nesciunt 
+          perferendis dolore nemo.
+        </p>
+        <p class="introduçao-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Quibusdam, vitae laudantium! Eius quo assumenda deserunt voluptates sequi, 
+          fugit illum repellat sed amet perspiciatis, facere temporibus error nesciunt 
+          perferendis dolore nemo.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Quibusdam, vitae laudantium! Eius quo assumenda deserunt voluptates sequi, 
+          fugit illum repellat sed amet perspiciatis, facere temporibus error nesciunt 
+          perferendis dolore nemo.
+          
+        </p>
+
+        <button onclick="showform()">Entre em contato</button>
+      </div>
+
+      <div>
+        <img
+          class="tatuador-trab"
+          src="./img/tatuador-trab.jpg"
+          alt="Imagem dos irmãos Mario"
+        />
+      </div>
+    </div>
+
+    <div class="caixa-video">
+      <video src="./img/video/videotattoo.mp4" autoplay muted loop></video>
+      <div class="mascara"></div>
+    </div>
+
+    <a href="https://wa.link/36fy6l" class="link-whatsapp">
+      <img src="./img/whatsapp.png" alt="link para o whatsapp" />
+    </a>
+    <form 
+        class="fale-conosco"  
+         action="https://formcarry.com/s/UgHMqoZBk5W"
+        method="POST"
+        enctype="multipart/form-data">
+            <input placeholder="Seu Nome" type="text" name="nome">
+            <input placeholder="Seu melhor e-mail" type="email" name="email">
+            <input placeholder="Celular" type="tel" name="telefone">
+            <textarea placeholder="Conte o seu problema" name="duvida"></textarea>
+            <button class="contato" type="submit">Pedir orçamento</button>
+    </form>
+  </body>
+  <script src="scripts.js"></script>
+</html>
